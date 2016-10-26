@@ -1,3 +1,19 @@
+body{
+	min-height:100vh;
+	padding: 0;
+	margin: 0;
+}
+nav{
+	background:#CD5360;
+
+	ul{
+		padding:10px;
+		li{
+			padding: 0;
+			margin:0;
+		}
+	}
+}
 a{
 	color:#fff;
 	text-align:center;
@@ -15,10 +31,15 @@ article{
 #logo{
 	color:#fff;
 	margin-top:20%;
-	font-size:90px;
+	font-size:70px;
 	text-shadow: 2px 2px #000;
+	font-family: 'Dancing Script', cursive;
+	@media (min-width: 550px) {
+		font-size:90px;
+	}
 }
-body{
+
+/*body{
 	background: rgba(147,206,222,1);
 	background: -moz-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
@@ -27,4 +48,9 @@ body{
 	background: -ms-radial-gradient(center, ellipse cover, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
 	background: radial-gradient(ellipse at center, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+}*/
+body{
+	background:#286DA8;
 }
+
+

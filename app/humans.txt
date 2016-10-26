@@ -3,11 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Alberto Narda - Tech Lead - @albertonarda
 
 # TECHNOLOGY COLOPHON
 
