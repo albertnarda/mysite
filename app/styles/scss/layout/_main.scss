@@ -2,6 +2,8 @@ body{
 	min-height:100vh;
 	padding: 0;
 	margin: 0;
+	color: white;
+	background:#286DA8;
 }
 nav{
 	background:#CD5360;
@@ -38,6 +40,11 @@ article{
 		font-size:90px;
 	}
 }
+.hackAnimation{
+	font-family: monospace;
+	font-size:14px;
+}
+
 
 /*body{
 	background: rgba(147,206,222,1);
@@ -49,8 +56,5 @@ article{
 	background: radial-gradient(ellipse at center, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
 }*/
-body{
-	background:#286DA8;
-}
 
 
