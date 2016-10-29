@@ -1,2 +1,2 @@
 # mysite
-Just my website
+Just my website.
